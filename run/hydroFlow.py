@@ -37,6 +37,7 @@ def main():
 
     args = sys.argv[1:]
     
+    print 'alksdf'
     if len(args) < 4:
         error_default("ERROR: Insufficient number of arguments passed to hydroFlow")
         raise
